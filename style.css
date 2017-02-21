@@ -6,8 +6,7 @@ body {
 img {
  width: 100%;
    width: 100vw;
-  
-}
+ }
 
 #black {
   position: relative;
@@ -16,6 +15,10 @@ img {
   width: 100vw;
   background-color: black;
   height: 20px;
-   
+  }
+
+.container {
+  background-color: black;
+  color: grey;
 }
 
