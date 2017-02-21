@@ -1,5 +1,5 @@
 body { 
-  font-family: 'Barrio';
+  font-family: 'Passion One';
   font-size: 2em;
   background-color: rgb(194, 193, 187);
   margin: 0; 
@@ -20,7 +20,9 @@ img {
   height: 20px;
   }
 
-.container {
+.info {
+  font-family: 'Barrio';
+  font-size: 2em;
   background-color: black;
   color: grey;
 }
