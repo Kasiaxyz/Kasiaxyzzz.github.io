@@ -1,10 +1,21 @@
+body { 
+  margin: 0; 
+  padding: 0;
+}
+
 img {
-width: 100%;
+ width: 100%;
+   width: 100vw;
+  
 }
 
 #black {
+  position: relative;
+  top: -5px;
   width: 100%;
+  width: 100vw;
   background-color: black;
   height: 20px;
-  margin: 0px 0px 0px 0px;
+   
 }
+
