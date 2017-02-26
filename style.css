@@ -20,6 +20,10 @@ body {
   height: 20px;
   }
 
+#muddy {
+  padding-top: 50px;
+}
+
 .info {
   font-family: 'Barrio';
   font-size: 2em;
