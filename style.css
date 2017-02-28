@@ -24,6 +24,11 @@ body {
   padding-top: 50px;
 }
 
+#monsterra1 {
+   width: 100%;
+   width: 100vw;
+ }
+
 .info {
   font-family: 'Barrio';
   font-size: 2em;
