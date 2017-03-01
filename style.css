@@ -11,14 +11,14 @@ body {
    width: 100vw;
  }
 
-#black {
+/*#black {
   position: relative;
   top: -5px;
   width: 100%;
   width: 100vw;
   background-color: black;
   height: 20px;
-  }
+  }*/
 
 .muddy {
   padding-top: 50px;
