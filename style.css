@@ -33,7 +33,10 @@ body {
    width: 100%;
    width: 100vw;
  }
-
+#monsterra2 {
+   width: 100%;
+   width: 100vw;
+ }
 .info {
   font-family: 'Barrio';
   font-size: 1em;
