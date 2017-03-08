@@ -50,3 +50,10 @@ body {
 .footer {
   font-family: 'Passion One';
 }
+.monsters {
+  padding-top: 60px;
+  width: 100%;
+  background-image: url("monsterra.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
