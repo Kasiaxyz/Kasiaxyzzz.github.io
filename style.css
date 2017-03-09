@@ -55,6 +55,14 @@ body {
 .footer {
   font-family: 'Passion One';
 }
+.intro {
+  color: black;
+  text-align: center;
+  font-family:'Barrio';
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 .monsters {
   padding-top: 60px;
   width: 100%;
