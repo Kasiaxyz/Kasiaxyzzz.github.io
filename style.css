@@ -55,7 +55,7 @@ body {
 .footer {
   font-family: 'Passion One';
 }
-.intro {
+#intro {
   color: black;
   text-align: center;
   font-family:'Barrio';
