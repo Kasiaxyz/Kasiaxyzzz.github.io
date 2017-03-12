@@ -29,7 +29,7 @@
 	<section class="container monsters">
     <div class="row monsta">
       <div class="col-sm-6">
-	     <img class="picture" src="monsterrr.png"/> 
+	     <img class="picture" id="picture1" src="monsterrr.png"/> 
 	    </div>
 	    <div class="col-sm-6 about">
 		    <p>Welcome to my website! I'm Mud Monster. I live alone in my swamp in the woods and I rarely socialize.
@@ -41,7 +41,7 @@
 		
 		<div class="row monsta">
       <div class="col-sm-6">
-	     <img class="picture" src="galeziowy4.png"/> 
+	     <img class="picture" id="picture2" src="galeziowy4.png"/> 
 	    </div>
 	    <div class="col-sm-6"> 
 		    <p>Mr Stickman</p> 
@@ -92,14 +92,25 @@
   });
 	</script>
 	<script>
-   document.getElementsByClassName("picture").onmouseover = function() {mouseOver()};
-		document.getElementsByClassName("picture").onmouseout = function() {mouseOut()};
-		function mouseOver() {
-			document.getElementsByClassName("picture").style.width = "800px";
-		}
-		function mouseOut() {
-			document.getElementsByClassName("picture").style.width = "100%";
-		}
+		var picture1 = document.getElementById("picture1");
+var picture2 = document.getElementById("picture2");
+var mouseOver1 = function(event) {
+  picture1.style.width = "800px";
+};
+var mouseOver2 = function(event) {
+  picture2.style.width = "800px";
+ 
+};
+var mouseOut1 = function(event) {
+  picture1.style.width = "100%";
+};
+var mouseOut2 = function(event) {
+  picture2.style.width = "100%";
+};
+picture1.addEventListener("mouseover", mouseOver1);
+picture1.addEventListener("mouseout", mouseOut1);
+picture2.addEventListener("mouseover", mouseOver2);
+picture2.addEventListener("mouseout", mouseOut2);
 	</script>
   </body>
 </html>
