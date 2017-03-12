@@ -83,7 +83,9 @@ body {
 a:link {
     color: Grey;
   }
-  
+  .info a {
+  color: pink;
+}
   a:hover {
     color: DodgerBlue;
   }
