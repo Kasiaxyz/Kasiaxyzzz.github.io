@@ -91,7 +91,15 @@
     }
   });
 	</script>
-  
-  
+	<script>
+   document.getElementsByClassName("picture").onmouseover = function() {mouseOver()};
+		document.getElementsByClassName("picture").onmouseout = function() {mouseOut()};
+		function mouseOver() {
+			document.getElementsByClassName("picture").style.width = "800px";
+		}
+		function mouseOut() {
+			document.getElementsByClassName("picture").style.width = "100%";
+		}
+	</script>
   </body>
 </html>
