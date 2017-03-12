@@ -10,12 +10,7 @@ body {
  width: 100%;
    width: 100vw;
  }
-a:link {
-    color: grey;
-}
-a:hover {
-    color: DodgerBlue;
-}
+
 .black {
   width: 90%;
   padding-left: 15vw;
@@ -84,6 +79,15 @@ a:hover {
 .picture {
   width: 100%;
 }
+
+a:link {
+    color: grey;
+  }
+  
+  a:hover {
+    color: DodgerBlue;
+  }
+
 @media only screen and (max-width: 500px) {
   .monsta {
     padding-left: 0px;
