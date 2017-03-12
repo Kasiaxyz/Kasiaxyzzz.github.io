@@ -95,11 +95,14 @@
 		var picture1 = document.getElementById("picture1");
 var picture2 = document.getElementById("picture2");
 var mouseOver1 = function(event) {
+	 if (window.innerWidth >= 800) {
   picture1.style.width = "800px";
+	 }
 };
 var mouseOver2 = function(event) {
+	 if (window.innerWidth >= 800) {
   picture2.style.width = "800px";
- 
+	 }
 };
 var mouseOut1 = function(event) {
   picture1.style.width = "100%";
