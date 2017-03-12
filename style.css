@@ -81,3 +81,6 @@ a:hover {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.picture {
+  width: 100%;
+}
