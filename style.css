@@ -84,3 +84,9 @@ a:hover {
 .picture {
   width: 100%;
 }
+@media only screen and (max-width: 500px) {
+  .monsta {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
