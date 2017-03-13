@@ -97,6 +97,8 @@ var picture2 = document.getElementById("picture2");
 var mouseOver1 = function(event) {
 	 if (window.innerWidth >= 800) {
   picture1.style.width = "800px";
+		  document.getElementById("about1").style.clear = "both";
+    document.getElementById("about1").style.paddingTop = "50px";
 	 }
 };
 var mouseOver2 = function(event) {
@@ -106,6 +108,7 @@ var mouseOver2 = function(event) {
 };
 var mouseOut1 = function(event) {
   picture1.style.width = "100%";
+	document.getElementById("about1").style.clear = "none";
 };
 var mouseOut2 = function(event) {
   picture2.style.width = "100%";
