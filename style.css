@@ -15,14 +15,6 @@ body {
   width: 90%;
   padding-left: 15vw;
 }
-/*#black {
-  position: relative;
-  top: -5px;
-  width: 100%;
-  width: 100vw;
-  background-color: black;
-  height: 20px;
-  }*/
 
 .muddy {
   padding-top: 50px;
@@ -66,6 +58,7 @@ body {
   color: black;
   text-align: center;
   font-family:'Barrio';
+  font-size: 2em;
   padding-top: 70px;
   padding-bottom: 70px;
 }
