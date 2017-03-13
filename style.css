@@ -31,6 +31,8 @@ body {
 .monsta {
   padding-left: 10vw;
   padding-right: 10vw;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 #monsterra1 {
@@ -64,8 +66,8 @@ body {
   color: black;
   text-align: center;
   font-family:'Barrio';
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 
 .monsters {
