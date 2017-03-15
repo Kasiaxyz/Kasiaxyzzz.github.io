@@ -71,6 +71,11 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+#mglisty {
+  background-image: url("mglisty1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}  
 .picture {
   width: 100%;
 }
