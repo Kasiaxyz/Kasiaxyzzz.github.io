@@ -97,3 +97,7 @@ a:link {
     padding-right: 0px;
   }
 }
+#messages {
+  padding-left: 15vw;
+  padding-bottom: 80px;
+}
