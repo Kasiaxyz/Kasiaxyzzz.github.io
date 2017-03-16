@@ -102,6 +102,7 @@
 	<script>
 		var picture1 = document.getElementById("picture1");
 var picture2 = document.getElementById("picture2");
+	var picture3 = document.getElementById("picture3");	
 var mouseOver1 = function(event) {
 	 if (window.innerWidth >= 800) {
   picture1.style.width = "800px";
@@ -114,6 +115,11 @@ var mouseOver2 = function(event) {
   picture2.style.width = "800px";
 	 }
 };
+		var mouseOver3 = function(event) {
+	 if (window.innerWidth >= 800) {
+  picture3.style.width = "800px";
+	 }
+};
 var mouseOut1 = function(event) {
   picture1.style.width = "100%";
 	document.getElementById("about1").style.clear = "none";
@@ -121,10 +127,15 @@ var mouseOut1 = function(event) {
 var mouseOut2 = function(event) {
   picture2.style.width = "100%";
 };
+	var mouseOut3 = function(event) {
+  picture3.style.width = "100%";
+};	
 picture1.addEventListener("mouseover", mouseOver1);
 picture1.addEventListener("mouseout", mouseOut1);
 picture2.addEventListener("mouseover", mouseOver2);
 picture2.addEventListener("mouseout", mouseOut2);
+		picture3.addEventListener("mouseover", mouseOver3);
+picture3.addEventListener("mouseout", mouseOut3);
 	</script>
   </body>
 </html>
